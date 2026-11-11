@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Universo - Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="logo">🌌 Exploración del Universo</div>
+        <nav>
+            <a href="index.html" class="nav-link">Inicio</a>
+            <a href="contenido.html" class="nav-link">Contenido Principal</a>
+            <a href="informacion.html" class="nav-link">Información Adicional</a>
+            <a href="contacto.html" class="nav-link active">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="col-2">
+            <div class="tarjeta">
+                <h1>Ponte en Contacto</h1>
+                <p>Nos encantaría saber de ti. Escríbenos para compartir dudas, experiencias o consultas sobre la observación del cielo nocturno y la astronomía amateur.</p>
+                
+                <form action="#" method="get" onsubmit="alert('¡Mensaje enviado con éxito! Gracias por contactarnos.'); return false;">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
+
+                    <label for="mensaje">Mensaje o consulta astronómica</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe aquí tu mensaje detallado..." required></textarea>
+
+                    <button type="submit" class="btn-accion">Enviar mensaje</button>
+                </form>
+            </div>
+
+            <div>
+                <div class="tarjeta">
+                    <h2>Consulta Especializada</h2>
+                    <p>¿Tienes preguntas avanzadas sobre telescopios, planetas o eventos estelares? Nuestro equipo de divulgación astronómica responderá a la brevedad.</p>
+                    <div class="imagen-box" style="height: 120px; background-image: url('https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?auto=format&fit=crop&w=600&q=80');"></div>
+                </div>
+
+                <div class="tarjeta">
+                    <h2>Comunidad y Exploración</h2>
+                    <p>Únete a nuestra red de entusiastas de la astronomía y expande tu conocimiento del universo día con día compartiendo observaciones y proyectos escolares.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
